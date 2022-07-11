@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
                 runOnUiThread(Runnable {
                     kotlin.run {
                         if(obj.get("result") == "success"){
+                            // sign in 액티비티 새로 만들면 intent로 유저 정보 전송 필요
                             finish()
                         }
                     }
